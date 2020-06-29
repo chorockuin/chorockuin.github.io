@@ -1,0 +1,75 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site title
+title: "Giant Steps"
+
+# A description of your site for social meta tag, search engines, and feed.xml
+description: "Giant Steps is Chorockuin's Blog."
+
+# Tagline near the site title
+tagline: "I wish I could say all the things that I should say. Say 'em loud, say 'em clear, for the whole world to hear."
+
+# The subpath of your site, e.g. /blog, for generating urls
+baseurl:
+
+sass:
+  sass_dir: _sass
+
+# The base hostname & protocol of your site for where absolute urls are needed
+url: "https://chorockuin.github.io"
+
+# Site navigation - each item must have a title and a url.
+navigation:
+- text: Home
+  url: /
+- text: About
+  url: /about/
+#- text: Style Guides
+#  url: /style-guide/
+- text: Archives
+  url: /tags/
+
+# The shortname for your Disqus site to enable comments.
+disqus:
+
+# Author information - author info at the bottom of the post
+author_name: "chorockuin"
+author_bio: "chorockuin is a dancer, disk jockey and rhythm maker"
+author_url:  "https://chorockuin.github.io"
+author_location: "Seoul, South Korea"
+author_image: /images/authorimage.png
+
+# Sidebar Add banner
+banner_url: "https://www.instagram.com/chorockuin/"
+banner_image: images/banner.jpg
+
+# Sidebar newsletter widget - add your form action url for MailChimp signup form here
+mailchimp_url: "//justgoodthemes.us3.list-manage.com/subscribe/post?u=78f1bab16028354caeb23aecd&amp;id=4a7330d117"
+
+# Social links in the site footer
+twitter_username: "chorockuin"
+facebook_username: "chorockuin"
+googleplus_username: "+chorockuin"
+github_username: "chorockuin"
+codepen_username: ""
+dribbble_uername: ""
+medium_username: "@"
+instagram_username: "chorockuin"
+pinterest_username: ""
+linkedin_username: "chorockuin"
+weibo_username: ""
+
+# http://jekyllrb.com/docs/pagination/
+paginate: 5
+paginate_path: '/blog/page:num/'
+plugins: [jekyll-paginate]
+
+permalink: pretty
+markdown: kramdown
+kramdown:
+    auto_ids: false
