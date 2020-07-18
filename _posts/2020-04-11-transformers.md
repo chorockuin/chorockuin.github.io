@@ -1,7 +1,10 @@
 ---
 layout: post
-title: "Transformers"
+title: "Transformers(Attention Is All You Need)"
 ---
+## 원문
+- <https://arxiv.org/abs/1706.03762>
+
 ## 왜 등장했을까?
 - seq2seq 모델은 시계열(순서가 있는) 데이터를 다른 형태의 시계열 데이터로 변신시켜 준다.
 - 기존 seq2seq 모델은 LSTM으로 구현되어 있는데, LSTM은 데이터를 순차적으로 처리하기 때문에 병렬화시킬 수 없다. 따라서 느리다.
