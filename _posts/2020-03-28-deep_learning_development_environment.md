@@ -23,7 +23,8 @@ title: "Deep Learning Development Environment"
 - 최신 그래픽카드 드라이버 설치
 	- [그래픽카드 드라이버 다운로드](https://www.nvidia.com/download/index.aspx?lang=en-us#)
 	- 다운로드 타입에 GRD와 SD가 있는데, SD선택하면 됨 [(참고)](https://www.reddit.com/r/nvidia/comments/d3dg88/game_ready_driver_vs_studio_driver_for_deep/)
-- 최신 그래픽카드 드라이버를 설치하면 CUDA 버전 하위 호환이 될 줄 알았는데 안됨
+- CUDA Toolkit 설치
+  - CUDA Toolkit을 설치해야 딥러닝 라이브러리에서 CUDA를 사용할 수 있음
 	- 원하는 버전에 맞는 CUDA Toolkit을 설치
 	- 하나의 머신에 여러 버전 설치 가능, PATH 설정으로 선택
 	- [버전별 CUDA Toolkit](https://developer.nvidia.com/cuda-toolkit-archive)
