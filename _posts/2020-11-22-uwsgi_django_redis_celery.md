@@ -1,0 +1,26 @@
+---
+layout: post
+title: "uWSGI + Django + Redis + Celery"
+---
+## uWSGI
+
+## Django
+
+## Redis
+
+* redis-cli
+  * dbsize
+  * key *
+  * get 'key'
+  * zrange 'key' 'from' 'to'
+  * lrange 'key' from 'to'
+* Celery에서 prefetch해서 가져간 메세지들은 실제로 Celery에서 처리되기 전까지는 Redis 내 unacked_index라는 zset형태의 키로 저장된다.
+* zset 속을 까보면, 요청 순서대로 번호가 매겨진 task id가 보인다.
+* Celery가 순서대로 task id에 해당하는 처리를 시작하면,  zset에서 해당 task id가 제거된다.
+* Celery의 prefetch 크기보다 더 많은 수의 요청이 발생하면 해당 요청들은 Redis 내 list형태의 celery라는 키로 저장된다.
+* list 속을 까보면, 요청 메세지가 보인다.
+
+## Celery
+
+* preftech는 Redis에서 미리 끌어(prefetch)와 저장해 둘 수 있는 Celery 내 최대 처리 요청 메세지의 수를 나타낸다.
+* 디폴트는 4개이고,  --prefetch-multiplier 옵션으로 변경할 수 있다.
