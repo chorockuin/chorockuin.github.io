@@ -3,15 +3,23 @@ layout: post
 title: "uWSGI + Django + Redis + Celery"
 ---
 ## uWSGI
-
+* 데몬 만들기
+  * https://uwsgi-docs.readthedocs.io/en/latest/Configuration.html#ini-files
+  * https://uwsgi-docs.readthedocs.io/en/latest/Options.html
+  * https://docs.djangoproject.com/en/3.1/howto/deployment/wsgi/uwsgi/
+* 서비스 만들기
+  * https://sysops.tistory.com/67
+  
 ## Django
-
+* 로깅
+  * https://docs.djangoproject.com/en/2.2/topics/logging/
+  
 ## Redis
-
 * redis-cli
   * dbsize
   * key *
   * get 'key'
+  * del 'key'
   * zrange 'key' 'from' 'to'
   * lrange 'key' from 'to'
 * Celery에서 prefetch해서 가져간 메세지들은 실제로 Celery에서 처리되기 전까지는 Redis 내 unacked_index라는 zset형태의 키로 저장된다.
@@ -21,6 +29,7 @@ title: "uWSGI + Django + Redis + Celery"
 * list 속을 까보면, 요청 메세지가 보인다.
 
 ## Celery
-
+* 데몬 만들기
+  * https://docs.celeryproject.org/en/latest/userguide/daemonizing.html#init-script-celeryd
 * preftech는 Redis에서 미리 끌어(prefetch)와 저장해 둘 수 있는 Celery 내 최대 처리 요청 메세지의 수를 나타낸다.
 * 디폴트는 4개이고,  --prefetch-multiplier 옵션으로 변경할 수 있다.
