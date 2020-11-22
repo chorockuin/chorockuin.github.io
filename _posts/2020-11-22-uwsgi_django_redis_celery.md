@@ -15,7 +15,8 @@ title: "uWSGI + Django + Redis + Celery"
   * https://docs.djangoproject.com/en/2.2/topics/logging/
   
 ## Redis
-* redis-cli
+* redis-cli 커맨드
+  * https://redis.io/commands
   * dbsize
   * key *
   * get 'key'
