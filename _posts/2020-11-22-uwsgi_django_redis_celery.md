@@ -21,8 +21,9 @@ title: "uWSGI + Django + Redis + Celery"
   * key *
   * get 'key'
   * del 'key'
-  * zrange 'key' 'from' 'to'
-  * lrange 'key' from 'to'
+  * zrange 'key' 'from index' 'to index'
+  * lrange 'key' 'from index' 'to index'
+  * llen 'list type key'
 * Celery에서 prefetch해서 가져간 메세지들은 실제로 Celery에서 처리되기 전까지는 Redis 내 unacked_index라는 zset형태의 키로 저장된다.
 * zset 속을 까보면, 요청 순서대로 번호가 매겨진 task id가 보인다.
 * Celery가 순서대로 task id에 해당하는 처리를 시작하면,  zset에서 해당 task id가 제거된다.
