@@ -36,6 +36,7 @@ title: "uWSGI + Django + Redis + Celery"
   * worker가 task 수행 요청을 받을 수 있는 최대 크기(celery의 prefetch 크기)
 * unacked_index에 값이 존재할 수 있는 시간
   * Celery 등에서 visibility_time 파라미터로 설정할 수 있음. 디폴트 1시간.
+  * 존재할 수 있는 시간이 지나면, unacked_index키에서 삭제되고, celery키로 다시 돌아간다.
   
 ## Celery
 * 데몬 만들기
