@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "Transformers(Attention Is All You Need)"
 ---
 ## 원문
