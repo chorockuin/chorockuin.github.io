@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Deep Learning Development Environment"
+categories: [AI]
+tags: [Deep Learning]
 ---
 
 두서없이 적는 딥러닝 환경 설정 상식

@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "NLP Dataset"
+categories: [AI]
+tags: [NLP, Deep Learning]
 ---
 
 SOTA를 측정하기 위해 사용하는 GLUE 데이터셋들을 정리해봤다. GLUE 말고도 많지만, 일단 GLUE 먼저

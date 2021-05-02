@@ -1,6 +1,8 @@
 ---
 layout: post
 title: "Machine Learning Basic"
+categories: [AI]
+tags: [Machine Learning]
 ---
 
 정보는 구글링, 개념은 책으로 얻는 편인데 당장 프로젝트를 급하게 진행해야 하는 상황이라.. 일단 여기저기에서 얻은 정보들을 막 구겨 넣어 둔다.
