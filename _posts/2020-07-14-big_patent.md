@@ -2,6 +2,9 @@
 layout: post
 title: "BIGPATENT: A Large-Scale Dataset for Abstractive and Coherent Summarization"
 ---
+
+Extractive 요약 데이터셋은 보통 (원문, 원문 내 요약문) 쌍으로 되어있다. 좋은 데이터셋의 핵심은 다양성이다. 요약문의 문장 구조가 다양하고, 요약문이 원문 내 다양한 곳에 위치하는 것이 좋다. Google Big Query에 있는 특허 데이터셋이 이런 조건을 만족한다고 해서 이 논문을 읽어봤는데, 얼마나 효과가 있는지는 모르겠다. 같은 Extractive 요약이라고 하더라도 해결하고자 하는 문제에 따라 데이터의 모양이 많이 달라지니까.
+
 ## 원문 
 - <https://arxiv.org/abs/1906.03741>
 
@@ -15,7 +18,7 @@ title: "BIGPATENT: A Large-Scale Dataset for Abstractive and Coherent Summarizat
 	- 130만 건의 미국 특허
 	- 요약문이 풍부한 문장 구조를 가지며 중요 단어는 자주 출현함
 	- 중요 내용이 원문의 앞,중간,뒤에 골고루 배치되어 있음
-	- 원문에서 추출한 문장 조각의 길이가 더 짧음(큰 덩어리로 추출되지 않았음)
+	- 원문에서 추출한 문장 조각의 길이가 더 짧음(큰 덩어리로 추출되지 않음)
 
 ## 1. Introduction
 

@@ -1,0 +1,52 @@
+title: 초록거인의 개발 블로그
+author: chorockuin
+email: chorockuin@gmail.com
+description: > # this means to ignore newlines until "twitter_username:"
+  머신 러닝을 공부하면서 알게된 내용을 정리하기 위해 시작한 블로그입니다.
+# social links
+#twitter_username: chorockuin
+github_username: chorockuin
+rss: rss
+# dribbble_username: chorockuin
+# facebook_username: chorockuin
+# flickr_username: chorockuin
+# instagram_username: chorockuin
+# linkedin_username: chorockuin
+# pinterest_username: chorockuin
+# youtube_username: chorockuin
+# googleplus_username: +chorockuin
+
+# Mastodon instances
+# mastodon:
+# - username: chorockuin
+#   instance: example.com
+# - username: chorockuin
+#   instance: example.com
+
+
+show_excerpts: false # set to true to show excerpts on the homepage
+
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+minima:
+  date_format: "%b %-d, %Y"
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.html
+
+# Build settings
+theme: minima
+
+plugins:
+ - jekyll-feed
+ - jekyll-seo-tag
+
+# # Disqus Comments
+# disqus:
+#     # Leave shortname blank to disable comments site-wide.
+#     # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
+#     shortname: chorockuin
+
+# url: https://chorockuin.github.io/

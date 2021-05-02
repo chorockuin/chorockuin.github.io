@@ -1,7 +1,12 @@
 ---
 layout: post
 title: "Naked Agile"
+categories: [Organizational Culture]
+tags: [Agile, Book]
 ---
+
+애자일의 핵심을 담고 있다고 평가되는 Naked Agile을 읽고 요약해봤다. 디테일한 방법론 보다는 철학과 개념에 집중한 책.
+
 ## 애자일 소프트웨어 개발 선언
 
 우리는 소프트웨어를 개발하고, 또 다른 사람의 개발을 도와주면서 소프트웨어 개발의 더 나은 방법들을 찾아가고 있다. 이 작업을 통해 우리는 다음을 가치 있게 여기게 되었다:

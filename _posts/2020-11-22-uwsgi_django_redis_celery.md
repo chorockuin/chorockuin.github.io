@@ -1,7 +1,12 @@
 ---
 layout: post
 title: "uWSGI + Django + Redis + Celery"
+categories: [Web]
+tags: [uWSGI, Django, Redis, Celery, Python]
 ---
+
+Python 기반 WAS를 만들기 위한 간단한 방법을 정리해봤다.
+
 ## uWSGI
 * 데몬 만들기
   * https://uwsgi-docs.readthedocs.io/en/latest/Configuration.html#ini-files

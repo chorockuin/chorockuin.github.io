@@ -2,6 +2,9 @@
 layout: post
 title: "Deep Learning Development Environment"
 ---
+
+두서없이 적는 딥러닝 환경 설정 상식
+
 ## GPGPU
 - General-Purpose computing on Graphics Processing Units
 - 컴퓨터 그래픽스 계산이 아닌, CPU가 맡았던 응용 프로그램들의 계산에 GPU를 사용하는 기술

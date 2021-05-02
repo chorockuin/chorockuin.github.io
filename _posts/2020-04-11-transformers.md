@@ -1,8 +1,12 @@
 ---
 layout: post
-comments: true
 title: "Transformers(Attention Is All You Need)"
+categories: [AI]
+tags: [Deep Learning, NLP, Transformer, Paper]
 ---
+
+BERT와 GPT를 탄생시킨 Transformer 논문을 읽고 이해한 내용을 정리해봤다. Transformer만 제대로 이해하고 있다면, 최신 NLP 논문들을 이해하는 데 무리가 없다고 생각한다.
+
 ## 원문
 - <https://arxiv.org/abs/1706.03762>
 

@@ -2,6 +2,9 @@
 layout: post
 title: "Text Summarization with Pretrained Encoders"
 ---
+
+현재 프로젝트에서 BERT의 NER과 Sentence Classification을 사용하고 있는데, Summarization이 필요하게 됬다. Summarization은 Abstractive와 Extractive로 나뉘는데, Abstractive는 생성이라 BERT를 그대로 사용하기엔 무리가 있다. GPT나 다른 알고리즘을 알아보기 전에, 일단 BERT를 활용해서 Summarization 하는 방법을 알아봤다.
+
 ## 원문 
 - <https://arxiv.org/abs/1908.08345>
 
