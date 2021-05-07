@@ -5,7 +5,7 @@ categories: [AI]
 tags: [Deep Learning]
 ---
 
-두서없이 적는 딥러닝 환경 설정 상식
+두서없이 적는 딥러닝 개발 환경 설정 상식
 
 ## GPGPU
 - General-Purpose computing on Graphics Processing Units
