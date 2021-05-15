@@ -5,7 +5,7 @@ categories: [Music]
 tags: [Ella Fitzgerald, Chick Webb, Swing, Lyrics]
 ---
 
-Puttin' On The Ritz가 떠오르는 2카운트 기반의 찰스턴이 어울리는 곡. 역시나 토드, 나오미, 스카이 공연이 꿀맛이네~
+Puttin' On The Ritz가 생각나는, 찰스턴이 어울리는 곡. 역시나 토드, 나오미, 스카이 공연이 꿀맛이다.
 
 Music :  
 Lyrics :  

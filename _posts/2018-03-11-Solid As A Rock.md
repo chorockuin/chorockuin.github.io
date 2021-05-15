@@ -5,7 +5,7 @@ categories: [Music]
 tags: [Ella Fitzgerald, Chick Webb, Swing, Lyrics]
 ---
 
-베이시의 피아노 연주는 간결하고 스윙감이 넘친다. 특히 피아노 건반을 두드리지 않을 때 오프비트 스윙감은 최고인 것 같다. 달리 레전드가 아니지. 가수의 목소리가 차분해서 사랑 노래인 줄은 몰랐는데, 사랑이 바위처럼 단단하다는 가사를 보니 어울리는 것 같기도 하고ㅎㅎ
+베이시의 피아노 연주는 간결하고 스윙감이 넘친다. 특히 피아노 건반을 두드리지 않을 때 오프비트 스윙감이 참 좋다. 그래서 그런지 소셜 때 리듬 놀이하기 좋은 곡들이 많고, 이 곡도 그런 곡들 중에 하나이다.
 
 Music & Lyrics : Bob Hilliard, David Man  
 Perform : Count Basie  
