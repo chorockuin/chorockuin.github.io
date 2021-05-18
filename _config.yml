@@ -11,7 +11,7 @@ plugins:
 
 # Build Settings
 
-paginate: 4
+paginate: 8
 
 tags_path: /tags/
 categories_path: /categories/
