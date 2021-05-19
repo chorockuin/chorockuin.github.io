@@ -5,7 +5,7 @@ categories: [Music]
 tags: [Jimmie Lunceford, Ella Fitzgerald, Sy Oliver, Trummy Young, Swing, Lyrics]
 ---
 
-엘라 보컬 버전은 드라마틱한 인트로 연주와 아기자기한 후반부 보컬로 꾸며지는데, 싸이 올리버 버전은 가사를 반 토막 내면서까지 관악기 떼창으로 밀어붙이며 시원하게 달려준다. 삶의 지혜를 담은 엘라 버전도, 지미 런스포드의 박력을 느낄 수 있는 싸이 올리버 버전도 모두 다 좋다.
+엘라 보컬 버전은 드라마틱 한 인트로 연주와 아기자기한 후반부 보컬로 꾸며지는데, 싸이 올리버 버전은 가사를 반 토막 내면서까지 관악기 떼창으로 밀어붙이며 시원하게 달려준다. 삶의 지혜를 담은 엘라 버전도, 지미 런스포드의 박력을 느낄 수 있는 싸이 올리버 버전도 모두 다 좋다.
 
 ![](/media/posts/music/Sy Oliver - The Original Arrangements of Jimmie Lunceford in Hi-Fi.jpg)
 

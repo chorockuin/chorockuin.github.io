@@ -5,7 +5,7 @@ categories: [Music]
 tags: [Slim Gaillard, Slam Stewart, Swing, Lyrics]
 ---
 
-최초 가사의 의도를 추측해 본다면, Flat foot floogie with a floy는 '성병 걸린 평발 매춘부'가 된다(...) 나중에 가사를 살짝 바꿨다고는 하지만, 알고서는 춤 출 수 없는 곡.
+최초 가사가 Flat foot floozie with a floy였다고 하니, Flat foot floogie with a floy는 '성병 걸린 평발 매춘부'란 뜻이 된다(...) 나중에 가사를 살짝 바꿨다고는 하지만, 이런 노랫말로 스윙 곡을 만들었다는 얘기는 비하의 의도를 가졌다고 의심할 만하다. 알고서는 들을 수 없는 곡.
 
 Music : Slim Gaillard, Slam Stewart  
 Lyrics : Slim Gaillard, Slam Stewart  

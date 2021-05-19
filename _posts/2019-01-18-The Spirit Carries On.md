@@ -5,7 +5,7 @@ categories: [Music]
 tags: [Dream Theater, Lyrics]
 ---
 
-스무살이었던 나는 스피릿하면 롹스피릿이 전부인 줄 알았다. 그런데 마흔에 가까워지던 어느 날 문득 깨달았다. 이 곡의 가사가 내가 계속 하고 있던 질문이었다는 것을. 나의 밴드 이데아 Dream Theater.
+스무 살이었던 나는 스피릿 하면 롹 스피릿이 전부인 줄 알았다. 그런데 마흔에 가까워지던 어느 날 문득 깨달았다. 이 곡의 가사가 내가 계속하고 있던 질문이었다는 것을. 나의 밴드 이데아 Dream Theater.
 
 ![](/media/posts/music/Dream Theater - Metropolis Pt.2-Scenes from a Memory.jpg)
 

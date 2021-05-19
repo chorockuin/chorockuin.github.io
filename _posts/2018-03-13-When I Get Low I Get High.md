@@ -5,7 +5,7 @@ categories: [Music]
 tags: [Ella Fitzgerald, Chick Webb, Swing, Lyrics]
 ---
 
-Puttin' On The Ritz가 생각나는, 찰스턴이 어울리는 곡. 역시나 토드, 나오미, 스카이 공연이 꿀맛이다.
+Puttin' On The Ritz가 생각나는, 찰스턴이 어울리는 곡. 이 곡에 맞춰 토드, 나오미, 스카이가 함께한 공연이 꿀맛이다.
 
 Music :  
 Lyrics :  
