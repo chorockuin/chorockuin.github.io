@@ -77,4 +77,4 @@ All that meat and no potatoes.
 Where is my fry and ham bone? Where is it?  
 내 튀김하고 뼈다귀 햄은 어딨어? 어딨냐구?  
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/WyNkzx13BhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/WyNkzx13BhE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

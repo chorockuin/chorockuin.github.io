@@ -79,6 +79,6 @@ Oh lady be good to me
 
 &#42;handsome guy : 어떤 버전에서는 miss로 되어 있음. 문맥상 miss가 맞는 것 같은데, 뮤지컬에서 처음 나온 곡이다 보니 스토리와 연관되어 있는듯?  
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/aQF4scwmxwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/aQF4scwmxwM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/UkTbVV9ThyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UkTbVV9ThyI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

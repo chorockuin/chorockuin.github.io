@@ -78,4 +78,4 @@ Jump for joy
 &#42;Green Pastures : 1936년 개봉한 영화. 흑인 캐릭터를 통해 성경 이야기를 묘사했는데, 인종에 대한 고정관념을 조장한다는 비판을 받았으나 흥행에는 성공했음  
 &#42;give some skin : 손을 부비면서 정겹게 악수하다  
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/32LAN4sSuKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/32LAN4sSuKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

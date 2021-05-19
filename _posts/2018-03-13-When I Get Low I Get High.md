@@ -146,6 +146,6 @@ When I get low, I get high
 &#42;get low : 워딩 그대로는 몸을 낮춘다는 뜻인데, 낮은 자세로 춤을 추는 것을 나타내기도 한다고.. 앞뒤 뉘앙스를 보면 약을 한 상태에서 춤추는 것을 의미하는 것 같음  
 &#42;get high : 기분이 좋은 상태. 특히 마리화나 등을 피운 후 몽롱한 상태를 의미
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/ev69AoBWaGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ev69AoBWaGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/dbEwRaGgniw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dbEwRaGgniw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

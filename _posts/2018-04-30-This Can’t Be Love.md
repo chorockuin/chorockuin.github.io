@@ -53,4 +53,4 @@ But still I love to look in your eyes.
 Still I love to look in your eyes.  
 여전히 난 네 눈을 바라보는게 좋아  
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/6NRHBOOK_ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6NRHBOOK_ks" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

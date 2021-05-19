@@ -53,4 +53,4 @@ Floy doy, floy doy, floy doy
 &#42;floy : 성병을 뜻하는 속어였는데, 아는 사람이 별로 없어서 그냥 넘어갔다고. 넌센스 단어로 인식되었다고 함  
 &#42;doy : 멍청함을 뜻하는 속어  
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/FZnjfhvmgyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FZnjfhvmgyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

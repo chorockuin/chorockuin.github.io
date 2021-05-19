@@ -98,4 +98,4 @@ All I want is a lavender coffin
 when they lower me into the holy ground.  
 그들이 나를 거룩한 땅에 뉘였을 때 말이야  
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/wt1GzAMA6yY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/wt1GzAMA6yY?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

@@ -45,4 +45,4 @@ Come to the altar with me
 
 &#42;Rock of Gibraltar : 지중해 지브롤터 반도에 있는 남북으로 길게 뻗은 바위산  
 
-<iframe width="600" height="400" src="https://www.youtube.com/embed/Zr6rmfRHaKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Zr6rmfRHaKg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
