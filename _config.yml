@@ -15,3 +15,5 @@ paginate: 8
 
 tags_path: /tags/
 categories_path: /categories/
+
+comments: true
