@@ -66,6 +66,22 @@ comments: true
   {{ content }}
 </article>
 
+{% if site.related_posts != empty %}
+  <aside class="related">
+    <h2 class="related-title">Related posts</h2>
+    <ul class="related-posts">
+      {% for post in site.related_posts limit:3 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">
+            {{ post.title }}
+          </a>
+          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
+        </li>
+      {% endfor %}
+    </ul>
+  </aside>
+{% endif %}
+
 <div id="disqus_thread"></div>
 <script>
     /**
@@ -84,18 +100,4 @@ comments: true
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>  
 
-{% if site.related_posts != empty %}
-  <aside class="related">
-    <h2 class="related-title">Related posts</h2>
-    <ul class="related-posts">
-      {% for post in site.related_posts limit:3 %}
-        <li>
-          <a href="{{ post.url | relative_url }}">
-            {{ post.title }}
-          </a>
-          <small><time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date_to_string }}</time></small>
-        </li>
-      {% endfor %}
-    </ul>
-  </aside>
-{% endif %}
+<script id="dsq-count-scr" src="//https-chorockuin-github-io.disqus.com/count.js" async></script>
