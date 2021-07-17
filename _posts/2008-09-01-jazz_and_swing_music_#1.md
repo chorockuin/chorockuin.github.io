@@ -51,8 +51,8 @@ tags: [Jazz, Swing, Music]
 결과는? 작업녀가 지금 강습녀가 되었지요. 하하.
 아무래도 재즈를 떠올리면, 대부분 비슷한 생각이시지 않나 싶어요. 특히 팔뤄분들은요.  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zXHcJxYXkXM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-데이트는 이렇게~
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dpK8p-S8TFQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+유명한 재즈빠-뉴욬의 블루노트
 
 그렇지만 사실은 좀 다릅니다. 적어도 재즈가 시작되어 퍼진 길은요…
 알면 알수록, 흙냄새, 살냄새, 술냄새, 사람냄새가 가득합니다.  
