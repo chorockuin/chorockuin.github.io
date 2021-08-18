@@ -130,5 +130,5 @@ Bounce me brother with a solid four.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Salo3ssVxAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 AI로 컬러링  
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/iFWh7HTCy0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rNGVK8gG0DQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 AI로 화질 개선  
