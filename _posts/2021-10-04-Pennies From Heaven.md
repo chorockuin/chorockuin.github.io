@@ -21,7 +21,7 @@ Don't you know each cloud contains pennies from heaven (Shooby Dooby)
 구름들이 천국의 동전을 머금고 있다는 사실을 모르나요?  
 
 You'll find your fortune falling all over town  
-행운이 마을에 내리고 있다는 걸 알게될거에요  
+온 마을에 내리고 있는 당신의 행운을 찾을 수 있을거에요  
 
 Each red and yella umbrella is up up up up upside down and...  
 빨강 노랑 우산들이 뒤집어지기 시작해요  
@@ -54,10 +54,10 @@ And don't you know each cloud contains
 당신은 구름들이 천국의 동전을 머금고 있다는 사실을 몰라요  
 
 You find your fortune falling  
-행운이 내리고 있다는 걸 알게될거에요  
+당신의 행운을 찾을 수 있을거에요  
 
 All over town, all over town, all over town  
-온 마을에요  
+온 마을에 내리고 있는 당신의 행운을요    
 
 Each red and yella umbrella  
 빨간, 노란 우산들이  
@@ -90,7 +90,7 @@ Let's go, let's go
 가요, 가요  
 
 And you'll find your fortune falling all over town  
-행운이 마을에 내리고 있다는 걸 알게될거에요  
+온 마을에 내리고 있는 당신의 행운을 찾을 수 있을 거에요  
 
 It be pennies from heaven  
 그건 천국에서 온 동전이에요  
