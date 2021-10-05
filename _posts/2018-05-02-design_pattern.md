@@ -50,7 +50,7 @@ tags: [Design Pattern]
 ![](/media/posts/design_pattern/proxy.svg)
 
 - Chain of Responsibility
-
+  - 서버에서 사용자를 인증하는 기능을 구현한다고 해보자. 사용자의 인증은 여러 단계를 포함한다. ID/PASS가 맞아야하고, 세션 DB에 기록을 남겨야 하며, 짧은 시간에 여러번 인증을 시도하면 무시되어야 한다. 어느 하나의 단계라도 문제가 발생하면 인증은 실패하며, 그 이후 단계는 진행할 필요가 없다. 따라서 인증 요청을 처리하는 공통 인터페이스를 정의하고 각 단계가 이 인터페이스를 받아 구현하고 연결한다면, 동일한 요청을 처리하는 체인을 만들 수 있다. 요청을 처리한다는 것이 책임(Responsibility)이므로 이는 책임의 연결이라고 할 수 있다. 사실 이것도 패턴이라기 보다는 상식적으로 생각할 수 있는 것인데, 암튼 이런 패턴을 Chain of Responsibility라고 한다.   
 ![](/media/posts/design_pattern/chain_of_responsibility.svg)
 
 - Interpreter
