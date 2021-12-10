@@ -24,5 +24,5 @@ analytics:
   provider               : "google-gtag" 
                           # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
-    tracking_id          : "G-5HQPK7RHNC"
+    tracking_id          : "G-42MS0DEV2G"
     anonymize_ip         : # true, false (default)
