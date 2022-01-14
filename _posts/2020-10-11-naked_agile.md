@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Naked Agile"
-categories: [Organizational Culture]
-tags: [Agile, Book]
+categories: [Book]
+tags: [Agile]
 ---
 
 애자일의 핵심을 담고 있다고 평가되는 Naked Agile을 읽고 요약해봤다. 디테일한 방법론 보다는 철학과 개념에 집중한 책.
