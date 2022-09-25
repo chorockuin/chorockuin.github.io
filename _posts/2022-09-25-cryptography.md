@@ -1,0 +1,121 @@
+---
+layout: post
+title: "암호화 기초"
+categories: [Development]
+tags: [Cryptography]
+---
+
+쥬니어들과 세미나하려고 노션에 간략히 적어뒀던 내용을 여기에도 올림. 요새는 대부분 노션에 노트하고 있는데 notion -> export to .md -> upload github.io 하는 자동화.. 빨리 만들어야겠음. 매우 귀찮음.
+
+# 암호화 기초
+
+- 친구와 온라인으로 연애 상담한다고 치자
+    - 메세지 받는 놈이 진짜 친구가 아니면 어떡하지? 메세지 보낸 놈이 진짜 친구가 아니면 어떡하지?
+        - 인증
+    - 다른 놈이 나와 친구의 메세지를 보면 어떡하지?
+        - 기밀성
+    - 메세지가 중간에 조작되면 어떡하지?
+        - 무결성
+    - 내가 보내지도 않은 메세지를 보냈다고 그러면 어떡하지? 지가 보내 놓고 안 보냈다고 그러면 어떡하지?
+        - 부인 방지
+- 시작은 기밀성이었다
+    - 옛날
+        - 나 : 원문 → Algorithm → 암호문 → 전달
+        - 친구 : 전달 → 암호문 → Algorithm → 원문
+        - Algorithm은 무작위성, 무규칙성 중요(에니그마)
+        - Algorithm이 복잡하면 꽤 효과적이지만, Algorithm 알아내면 다 망함
+    - 최근
+        - 나 : 원문 → Key + Algorithm → 암호문 → 전달
+        - 친구 : 전달 → 암호문 → Key + Algorithm → 원문
+        - Algorithm은 고정, Key는 그때 그때 바꿔서
+        - Key 알아내도 다 망하진 않음
+- 대칭 Key
+    - 암호화 Key = 복호화 Key
+        - 나 : 원문 → Key + Algorithm → 암호문 → 전달
+        - 친구 : 전달 → 암호문 → Key + Algorithm → 원문
+    - Algorithm
+        - DES, AES, 3DES
+- 그런데 대칭 Key에는 문제가 있다.
+    - 기밀성은 나름 해결했는데… Key는 서로 어떻게 공유하지? 만나서 줄 수도 없고…
+    - 친구마다 Key를 다 다르게 사용해야 하는데… Key 어떻게 관리하지?(유럽의 에어 비엔비 열쇠 지옥과 비슷)
+    - Key 공유가 문제이니 인증, 무결성, 부인 방지도 다 문제네
+- 그래서 나왔다. 비대칭 Key
+    - 암호화 Key ≠ 복호화 Key
+    - Key를 Public Key와 Private Key 2개로 구성함. Public Key는 다른 사람에게 공개. Private Key는 자신이 잘 간직
+    - Public Key로 암호화 하면 Private Key로 복호화 할 수 있고, Private Key로 암호화 하면 Public Key로 복호화 할 수 있다
+    - Case 1
+        - 나 : 원문 → 친구 Public Key ****+ Algorithm → 암호문 → 전달
+        - 친구 : 전달 → 암호문 → 친구 Private Key ****+ Algorithm → 원문
+    - Case 2
+        - 나 : 원문 → 내 Private Key ****+ Algorithm → 암호문 → 전달
+        - 친구 : 전달 → 암호문 → 내 Public Key ****+ Algorithm → 원문
+    - Algorithm
+        - RSA, DSA
+    - Algorithm이 어떻게 돌아가는 걸까?
+        - 대단히 큰 소수 p, q 준비
+        - N = p x q
+        - p, q를 이용해 e를 구한다
+            - Public Key = N, e
+        - p, q, e를 이용해 d를 구한다
+            - Private Key = N, d
+        - Public Key, Private Key를 만들 때 공통적으로 들어가는 p, q가 핵심이다. p x q = N이고, N 값은 공개되나 N 값만 가지고 p, q를 알아내기는 매우 어렵기 때문에 안전하다는 것
+            - 1837100231809 = 274177 × 6700417
+        - [https://www.youtube.com/watch?v=kGUlfVpIfaQ](https://www.youtube.com/watch?v=kGUlfVpIfaQ)
+    - 단점
+        - 느려…
+        - 키 길이보다 큰 데이터를 암호화 하기 어려움
+    - 기밀성
+        - 나 : 원문 → 친구 Public Key ****+ Algorithm → 암호문 → 전달
+        - 친구 : 전달 → 암호문 → 친구 Private Key ****+ Algorithm → 원문
+    - 인증
+        - 나 : 원문 → 전달
+        - 친구 : 전달 → 원문 → 친구 Private Key ****+ Algorithm → 암호문 → 전달
+        - 나 : 전달 → 암호문 → 친구 Public Key + Algorithm → 원문
+        - 친구에게 보낸 원문과 친구로부터 받은 원문이 같은지 확인
+    - 무결성
+        - 나 : 원문 + 원문 Hash → Key + Algorithm → 암호문 → 전달
+        - 친구 : 전달 → 암호문 → Key + Algorithm → 원문 + 원문 Hash
+        - 친구가 내가 전달한 원문을 Hash 했을 때, 내가 전달한 원문 Hash값과 같은지 확인
+    - 부인 방지
+        - 나 : 원문 + 전자 서명(원문 Hash → 내 Private Key) → Key + Algorithm → 암호문 → 전달
+        - 친구 : 전달 → 암호문 → Key + Algorithm → 원문 + 전자 서명
+        - 친구가 내가 전달한 원문을 Hash 했을 때, 내가 전달한 전자 서명을 내 Public Key로 복호화 시킨 값과 같은지 확인
+- 문제는 다 사라진 걸까?
+    - 친구의 Public Key가 진짜 친구의 것이 맞는 지만 확인하면 된다
+    - Public Key를 인증해 주는 시스템(인프라)이 필요하다
+- PKI(Public Key Infrastructure)
+    - Public Key 발급, 조회, 주인 확인 등을 어디선가 해야할 것 아닌가?
+    - 4가지 컴포넌트로 구성
+        - 공개 키 인증서(Public Key Certificate)
+            - 발급자, 소유자, 공개키, 권한/정책, 유효기간, 일련 번호, 발급자 서명 등의 정보로 구성
+            - 개인키는 따로 보관
+            - X.509 표준
+        - 인증 기관(Certification Authority)
+            - 인증서를 발급해 줌
+            - 인증서를 발급할 때, 인증 기관의 Private Key를 사용해 발급자 서명을 넣음
+            - 인증서 사용자는 해당 인증 기관의 Public Key를 가지고 서명을 복호화 해 봄으로써 해당 인증 기관이 제대로 된 것인지 확인함
+            - 인증 기관이 제대로 인지 아닌지는 Root CA까지 연결되어 확인하게 되고, 이를 Certificate Chain이라고 함
+            - Root CA는 누구나 다 아는 신뢰할 수 있는 인증 기관으로 몇 개 없음
+        - 저장소(Repository)
+        - 사용자(User)
+- 서버에 저장된 패스워드 암호화
+    - 패스워드를 복호화 할 수 없도록 저장한다는 것이 핵심
+        - 패스워드 Hash
+        - 패스워드 + 특정 값 + Algorithm
+- SSL
+    - [https://m.blog.naver.com/nttkak/20130246586](https://m.blog.naver.com/nttkak/20130246586)
+    - 복잡한 것 처럼 보이지만 결국 비대칭 Key를 사용하여 대칭 Key를 공유하는 과정일 뿐이다
+    - 그리고 비대칭 Key는 인증서를 주고 받으면서 얻어서 사용한다
+- Wifi 인증 방식
+    - WPA-PSK(Wifi Protected Access-Pre Shared Key)
+    - WPA2-PSK(Wifi Protected ver2 Access-Pre Shared Key)
+        - WPA-PSK 개선
+- 암호화 방식
+    - WEP(Wired Equivalent Privacy)
+        - 취약해서 안씀
+    - TKIP(Temporal Key Integrity Protocol)
+        - WEP 땜빵
+    - AES(Advanced Encryption Standard)
+        - NIST가 만든 암호화 표준
+- Authentication vs Authorization
+    - 신원 확인 vs 권한 확인
